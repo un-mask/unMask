@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Chirp";
+  src: local("Chirp"), url("./fonts/chirp/chirp-bold-web.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chirp";
+  src: local("Chirp"),
+    url("./fonts/chirp/chirp-regular-web.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chirp";
+  src: local("Chirp"), url("./fonts/chirp/chirp-medium-web.woff") format("woff");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chirp";
+  src: local("Chirp"), url("./fonts/chirp/chirp-heavy-web.woff") format("woff");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.App {
+  font-family: "Chirp";
+}
