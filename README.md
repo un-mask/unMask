@@ -8,3 +8,10 @@ Our principles are as follows:
 - free forever 🆓
 - free from masks 🎭
 - as safe as possible 🔒
+
+## Testing (frontend)
+To try it for now you can download client folder and run
+```
+npm i
+npm start
+```
